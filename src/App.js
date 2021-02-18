@@ -3,6 +3,7 @@ import "./App.css";
 import "./Components/APOD-Timetraveler"
 import Axios from "axios"
 import APODTimetraveler from "./Components/APOD-Timetraveler";
+import styled from "styled-components";
 
 function App() {
   const baseURL = "https://api.nasa.gov/planetary/apod?api_key=YYeoudU7Z4ywtKjpRS3TAb6ZCiSkFJk5jzusGtqT"
@@ -50,7 +51,6 @@ function App() {
   const reset = () =>{
     return (setCDate(0));
   }
-
 
   return (
     <div className="App">
